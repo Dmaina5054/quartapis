@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiofiles = "==0.7.0"
+blinker = "==1.4"
+click = "==8.0.1"
+h11 = "==0.12.0"
+h2 = "==4.0.0"
+hpack = "==4.0.0"
+hypercorn = "==0.11.2"
+hyperframe = "==6.0.1"
+itsdangerous = "==2.0.1"
+jinja2 = "==3.0.1"
+markupsafe = "==2.0.1"
+priority = "==2.0.0"
+quart = "==0.15.1"
+toml = "==0.10.2"
+werkzeug = "==2.0.1"
+wsproto = "==1.0.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
